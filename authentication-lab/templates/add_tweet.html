@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="/add_tweet">
+        <!-- Heading -->
+        <h4>
+            Create a tweet
+        </h4>
+
+        <!-- Title -->
+        <div>
+            <label>Title*</label>
+            <div class="input-group">
+                <input type="text"  name="title" minlength="1">
+            </div>
+        </div>
+        
+
+        <!-- text -->
+        <div>
+            <label>text*</label>
+            <div class="input-group">
+                <input type="text"  name="textT" maxlength="280">
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+</body>
+</html>
